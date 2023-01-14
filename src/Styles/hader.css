@@ -1,0 +1,47 @@
+.Header{
+    background-color: rgb(243, 240, 240);
+    height: 60vh
+   
+}
+.sub-head1{
+    width: 90%;
+    margin: auto;
+}
+.head h1{
+    font-weight: 600;
+}
+.transaction h3{
+    font-weight: 600;
+    padding: 2%;
+}
+.amount{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1% 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(142, 142, 142, 0.2), 0 6px 20px 0 rgba(142, 142, 142, 0.2);
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 img{
+    background-color: rgb(185, 227, 243);
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    display: block;
+
+}
+.total-amount{
+    padding: 2%;
+    padding-left: 5%;
+    line-height: 10px;
+}
+.total-amount h3{
+    font-weight: 400;
+    color: rgb(109, 108, 108);
+}
